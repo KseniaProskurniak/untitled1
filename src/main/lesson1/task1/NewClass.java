@@ -1,15 +1,17 @@
 package main.lesson1.task1;
 
 public class NewClass {
-    int radius = 0;
 
     public static void main(String[] args) {
         NewClass instance;
         instance = new NewClass();
-        System.out.println(instance.getSquare());
+        System.out.println(instance.getSquare(0));
+        System.out.println(instance.getSquare(2));
+        System.out.println(instance.getSquare(100));
     }
 
-    double getSquare() {
-        return 3.14 * radius * radius;
+    float getSquare(int radius) {
+        float pi =3.14f;
+        return pi * radius * radius;
     }
 }

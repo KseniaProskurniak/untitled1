@@ -7,7 +7,7 @@ public class task6 {
         boolean c = true;
         boolean d = true;
 
-        boolean check1 = a || b;
+        boolean check1 = a && b;
         boolean check2 = c || d;
         boolean check3 = check1 || check2;
         System.out.println(check3);
