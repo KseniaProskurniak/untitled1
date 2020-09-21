@@ -1,10 +1,10 @@
-package main.lesson1.task1;
+package main.lesson1;
 
-public class NewClass {
+public class Task1 {
 
     public static void main(String[] args) {
-        NewClass instance;
-        instance = new NewClass();
+        Task1 instance;
+        instance = new Task1();
         System.out.println(instance.getSquare(0));
         System.out.println(instance.getSquare(2));
         System.out.println(instance.getSquare(100));

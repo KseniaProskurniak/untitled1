@@ -1,8 +1,8 @@
-package main.lesson1.task2;
+package main.lesson1;
 
-public class Rectangle1 {
+public class Task2 {
     public static void main(String[] args) {
-        Rectangle1 new1 = new  Rectangle1();
+        Task2 new1 = new Task2();
         System.out.println(new1.squereMorePerimeter(2,7));
         System.out.println(new1.squereMorePerimeter(6,5));
         System.out.println(new1.squereMorePerimeter(6,3));

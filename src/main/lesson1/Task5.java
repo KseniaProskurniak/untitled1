@@ -1,4 +1,4 @@
-package main.lesson1.task5;
+package main.lesson1;
 
 public class Task5 {
     public static void main(String[] args) {
