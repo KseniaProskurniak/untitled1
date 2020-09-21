@@ -11,7 +11,7 @@ public class Task1 {
     }
 
     float getSquare(int radius) {
-        float pi =3.14f;
+        float pi = 3.14f;
         return pi * radius * radius;
     }
 }
