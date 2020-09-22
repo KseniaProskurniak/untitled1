@@ -1,4 +1,4 @@
-package main.lesson1.task1;
+package main.java.other;
 
 public class NewClass2 {
 

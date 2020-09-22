@@ -1,4 +1,4 @@
-package main.lesson1.task2;
+package main.lesson1.Other;
 
 public class Rectangle {
     int width;
