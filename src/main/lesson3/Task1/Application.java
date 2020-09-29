@@ -1,16 +1,12 @@
 package main.lesson3.Task1;
 
 public class Application {
+
     public static void main(String[] args) {
-        Cat cat = new Cat();
-        cat.name = "Барсик";
-        cat.age = 2;
-
-        cat.move();
-
-
-        Cat cat3 = new Cat();
-        cat3.move();
+        Calculator calculator = new Calculator();
+        System.out.println(calculator.summ(4,2));
+        System.out.println(calculator.substract(5,3));
+        System.out.println(calculator.multiply(2,6));
+        System.out.println(calculator.divide(5,3));
     }
 }
-
