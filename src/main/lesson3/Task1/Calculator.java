@@ -8,9 +8,7 @@ public class Calculator {
         return first + second;
     }
 
-    int substract(int first, int second) {
-        return first - second;
-    }
+    int substract(int first, int second) { return first - second; }
 
     int multiply(int first, int second) {
         return first * second;
