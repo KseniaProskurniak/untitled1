@@ -1,14 +1,16 @@
 /*package main.lesson3.task5;
 
-import.java.util.Rundom;
+import
+
+import java.util.Random;
 
 public class Cat {
     String nameCat;
     int ageCat;
 
-    public Сat() {
-
-;
+    public Cat() {
+        nameCat = Names.getRundomCatName();
+        ageCat = new Random().nextInt(15);
 
     }
 }

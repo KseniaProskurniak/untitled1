@@ -22,7 +22,7 @@ public class ArrayCycles {
     static void method1(String[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i]);
-            if (i==array.length-1)
+            if (i == array.length - 1)
                 System.out.print(".");
             else
                 System.out.print(" ");
@@ -30,14 +30,14 @@ public class ArrayCycles {
     }
 
     static void method2(String[] array2) {
-        int counter =0;
+        int counter = 0;
 
         for (String item : array2) {
-            counter = counter+1;
+            counter = counter + 1;
 
             System.out.print(item);
 
-            if (counter>array2.length-1)
+            if (counter > array2.length - 1)
                 System.out.print(".");
             else
                 System.out.print(" ");
@@ -49,7 +49,7 @@ public class ArrayCycles {
         int i = 0;
         while (i < array3.length) {
             System.out.print(array3[i]);
-            if (i==array3.length-1)
+            if (i == array3.length - 1)
                 System.out.print(".");
             else
                 System.out.print(" ");

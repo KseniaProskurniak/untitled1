@@ -1,7 +1,6 @@
 
 package main.lesson3.Task3;
 
-
 public class Application {
     public static void main(String[] args) {
         Human valeriy = new Human("Валерий", 62, null, null);

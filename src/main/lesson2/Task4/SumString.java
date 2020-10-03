@@ -3,6 +3,7 @@ package main.lesson2.Task4;
 import first.length;
 
 import java.util.Arrays;
+
 public class SumString {
     public static void main(String[] args) {
         String first = "Hello";
@@ -23,11 +24,11 @@ public class SumString {
                     break;
                 }
             }
-            }
-
-            System.out.println(result);
-
         }
+
+        System.out.println(result);
+
     }
+}
 
 
