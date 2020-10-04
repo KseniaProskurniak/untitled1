@@ -1,4 +1,4 @@
-package main.lesson3.Task2;
+package main.lesson3.task2;
 
 import java.util.Arrays;
 
@@ -12,7 +12,7 @@ public class Application {
         };
         Arrays.sort(cats, (a, b) -> a.name.compareTo(b.name));
         for (Cat cat : cats) {
-            System.out.printf("Имя: %s, Возраст: %d, Вес: %d %n" , cat.name, cat.age, cat.weight);
+            System.out.printf("Имя: %s, Возраст: %d, Вес: %d %n", cat.name, cat.age, cat.weight);
         }
 
     }

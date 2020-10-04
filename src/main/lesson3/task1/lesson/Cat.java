@@ -1,4 +1,4 @@
-package main.lesson3.Task1.lesson;
+package main.lesson3.task1.lesson;
 
 public class Cat {
    String name;

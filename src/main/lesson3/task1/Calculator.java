@@ -1,4 +1,4 @@
-package main.lesson3.Task1;
+package main.lesson3.task1;
 
 public class Calculator {
 

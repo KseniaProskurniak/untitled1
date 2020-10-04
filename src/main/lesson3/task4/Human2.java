@@ -1,12 +1,12 @@
-package main.lesson3.Task4;
+package main.lesson3.task4;
 
 public class Human2 {
     String name;
     Human2[] friends = new Human2[3];
 
-Human2(String name){
-    this.name =name;
-}
+    Human2(String name) {
+        this.name = name;
+    }
 
     void addFriend(Human2 friend) {
         int index = 0;

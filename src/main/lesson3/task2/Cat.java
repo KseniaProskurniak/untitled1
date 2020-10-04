@@ -1,4 +1,4 @@
-package main.lesson3.Task2;
+package main.lesson3.task2;
 
 public class Cat {
     int age;

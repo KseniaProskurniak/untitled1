@@ -1,4 +1,4 @@
-package main.lesson3.Task3;
+package main.lesson3.task3;
 
 public class Human {
     String name;
