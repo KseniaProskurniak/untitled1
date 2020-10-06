@@ -1,4 +1,8 @@
-package main.lesson4.task3.workers;
+/*package main.lesson4.task3.workers;
 
-public class Cleaner {
+private class Cleaner {
+    private static void takeTicket (int ticketNumber){
+
+    }
 }
+*/

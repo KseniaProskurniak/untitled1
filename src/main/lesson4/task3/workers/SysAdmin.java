@@ -1,4 +1,9 @@
-package main.lesson4.task3.workers;
+/*package main.lesson4.task3.workers;
 
-public class SysAdmin {
+private class SysAdmin {
+
+    private static void takeTicket (int ticketNumber){
+
+    }
 }
+*/
