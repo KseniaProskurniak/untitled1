@@ -1,9 +1,8 @@
-/*package main.lesson4.task3.workers;
+package main.lesson4.task3.workers;
 
-private class SysAdmin {
+class SysAdmin {
 
-    private static void takeTicket (int ticketNumber){
-
+    static void takeTicket(int ticketNumber) {
+        System.out.printf("Заявка %d была принята системным администратором\n", ticketNumber);
     }
 }
-*/

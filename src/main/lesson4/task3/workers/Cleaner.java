@@ -1,8 +1,7 @@
-/*package main.lesson4.task3.workers;
+package main.lesson4.task3.workers;
 
-private class Cleaner {
-    private static void takeTicket (int ticketNumber){
-
-    }
+ class Cleaner {
+     static void takeTicket(int ticketNumber) {
+         System.out.printf("Заявка %d была принята уборщиком\n", ticketNumber);
+     }
 }
-*/

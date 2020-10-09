@@ -32,7 +32,7 @@ public class Passport {
     public Passport setNumber(String number) {
         String regex = "^\\d{6}$";
         Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.matcher(number);
+        Matcher matcher = pattern.                           matcher(number);
         if (matcher.matches()) {
             this.number = number;
         } else {
