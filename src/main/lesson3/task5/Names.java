@@ -1,22 +1,24 @@
-/*package main.lesson3.task5;
+package main.lesson3.task5;
+
+import java.util.Random;
 
 public class Names {
 
-    static final String[] human_names = {"Иван", "Михаил", "Олег", "Александр", "Татьяна", "Светлана", "Марина", "Ольга"};
-    static final String[] cat_names = {"Мурзик", "Барсик", "Пушок", "Базилио", "Рыжик", "Леопольд"};
-    static final String[] dog_names = {"Шарик", "Тузик", "Трезор", "Мухтар", "Дружок", "Джек"};
+    static final String[] humanNames = {"Иван", "Михаил", "Олег", "Александр", "Татьяна", "Светлана", "Марина", "Ольга"};
+    static final String[] catNames = {"Мурзик", "Барсик", "Пушок", "Базилио", "Рыжик", "Леопольд"};
+    static final String[] dogNames = {"Шарик", "Тузик", "Трезор", "Мухтар", "Дружок", "Джек"};
 
+    private static final Random random = new Random();
 
-    static String getRundomHumanName() {
-        return human_names[new.Random().nextInt(human_names.length)];
+    static String getRandomHumanName() {
+        return humanNames[random.nextInt(humanNames.length)];
     }
 
-    static String getRundomCatName() {
-        return cat_names[new.Random().nextInt(cat_names.length)];
+    static String getRandomCatName() {
+        return catNames[random.nextInt(catNames.length)];
     }
 
-    static String getRundomDogName() {
-        return dog_names[new.Random().nextInt(dog_names.length)];
+    static String getRandomDogName() {
+        return dogNames[random.nextInt(dogNames.length)];
     }
 }
-*/

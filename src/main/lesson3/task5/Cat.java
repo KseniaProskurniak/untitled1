@@ -1,17 +1,15 @@
-/*package main.lesson3.task5;
-
-import
+package main.lesson3.task5;
 
 import java.util.Random;
 
 public class Cat {
-    String nameCat;
-    int ageCat;
+    private static final Random random = new Random();
+    String name;
+    int age;
 
     public Cat() {
-        nameCat = Names.getRundomCatName();
-        ageCat = new Random().nextInt(15);
+        name = Names.getRandomCatName();
+        age = random.nextInt(15);
 
     }
 }
-*/

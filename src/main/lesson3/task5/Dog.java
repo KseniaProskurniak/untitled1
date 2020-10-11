@@ -1,18 +1,18 @@
-/*package main.lesson3.task5;
+package main.lesson3.task5;
 
-import
 
 import java.util.Random;
 
 public class Dog {
-    String nameDog;
-    int ageDog;
+    private static final Random random = new Random();
+
+    String name;
+    int dog;
 
     public Dog() {
-        nameDog = Names.getRundomCatName();
-        ageDog = new Random().nextInt(15);
+        name = Names.getRandomDogName();
+        dog = random.nextInt(15);
 
     }
 
 }
-*/
