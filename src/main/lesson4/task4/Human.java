@@ -35,10 +35,10 @@ public class Human {
     }
 
     public void setPassport(Passport value) {
-        if (value.getSeries()!=null && value.getNumber()!=null){
+        if (value.getSeries() != null && value.getNumber() != null) {
             this.passport = value;
             System.out.println("Паспорт успешно присвоен");
-        }else {
+        } else {
             System.out.println("Серия или номер некорректны");
         }
     }
@@ -59,17 +59,19 @@ public class Human {
             this.newHuman.setLastName(value);
             return this;
         }
-            public Builder withAge ( int value1){
-                this.newHuman.setAge(value1);
-                return this;
-            }
-            public Builder withPassport (Passport value){
-                this.newHuman.setPassport(value);
-                return this;
-            }
 
-            public Human build () {
-                return newHuman;
-            }
+        public Builder withAge(int value1) {
+            this.newHuman.setAge(value1);
+            return this;
+        }
+
+        public Builder withPassport(Passport value) {
+            this.newHuman.setPassport(value);
+            return this;
+        }
+
+        public Human build() {
+            return newHuman;
         }
     }
+}

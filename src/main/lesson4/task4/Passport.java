@@ -32,7 +32,7 @@ public class Passport {
     public Passport setNumber(String number) {
         String regex = "^\\d{6}$";
         Pattern pattern = Pattern.compile(regex);
-        Matcher matcher = pattern.                           matcher(number);
+        Matcher matcher = pattern.matcher(number);
         if (matcher.matches()) {
             this.number = number;
         } else {
@@ -42,7 +42,7 @@ public class Passport {
         return this;
     }
 
-    public static class Builder{
+    public static class Builder {
         Passport newPassport;
         static Passport[] passports = new Passport[100];
         int itemsCount = 0;
@@ -50,15 +50,18 @@ public class Passport {
         public Builder() {
             this.newPassport = new Passport();
         }
-        public Builder withSeries(String value){
+
+        public Builder withSeries(String value) {
             this.newPassport.setSeries(value);
             return this;
         }
-        public Builder withNumber(String value){
+
+        public Builder withNumber(String value) {
             this.newPassport.setNumber(value);
             return this;
         }
-        public Passport build(){
+
+        public Passport build() {
             // если есть номер и серия у паспорта, который сейчас будем возвращать, то проверяем по ранее созданным паспортам на совпадение
             if (this.newPassport.getNumber() != null || this.newPassport.getSeries() != null) {
                 for (Passport passport : passports) {
@@ -66,7 +69,7 @@ public class Passport {
                         break;
                     if (passport.getSeries() == this.newPassport.getSeries() && passport.getNumber() == newPassport.getNumber()) {
                         System.out.println("Серия и номер паспорта не уникальны");
-                        return  null;
+                        return null;
                     }
                 }
             }
