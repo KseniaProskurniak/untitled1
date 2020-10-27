@@ -6,6 +6,14 @@ public class IdentityDocument {
     private IdentityDocumentType docType;
     private String seriesNumber;
 
+    public IdentityDocumentType getDocType() {
+        return docType;
+    }
+
+    public String getSeriesNumber() {
+        return seriesNumber;
+    }
+
     public IdentityDocument(IdentityDocumentType docType, String seriesNumber) {
         this.docType = docType;
         this.seriesNumber = seriesNumber;

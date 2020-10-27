@@ -10,6 +10,7 @@ public enum IdentityDocumentType {
     private String code;
     private String title;
 
+
     IdentityDocumentType(String code, String title) {
         this.code = code;
         this.title = title;
@@ -22,6 +23,5 @@ public enum IdentityDocumentType {
     public String getTitle() {
         return title;
     }
-
 }
 

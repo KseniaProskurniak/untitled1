@@ -10,7 +10,7 @@ public class NameGenerator {
         int countName = ThreadLocalRandom.current().nextInt(5, 12);
         String name = "";
         for (int i = 0; i < countName; i++) {
-            int pick = new Random().nextInt(alphabet.length);
+            int pick = new Random().nextInt(alphabet.length); // переменная содержит рандомное число, ограниченное длинной массива
             name += alphabet[pick];
             if (i == 0) {
                 name = name.toUpperCase();
