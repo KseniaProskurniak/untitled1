@@ -1,19 +1,30 @@
-//package main.lesson9.task4;
-//
-//import main.lesson9.task4.Food.Food;
-//
-//import java.util.ArrayList;
-//import java.util.List;
-//import java.util.Random;
-//
-//public class Cooker implements Distributor.CookChooser {
-//    List<Food> foods = new ArrayList<>();
-//    List<Integer> cookers = new ArrayList<Integer>();
-//
-//
-//
-//    @Override
-//    public void addFood(Food food, List<Cooker> cookers) {
-//        cookers.add(foods);
-//    }
-//}
+package main.lesson9.task4;
+
+import main.lesson9.task4.food.Food;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Cooker {
+    private final List<Food> foods = new ArrayList<>();
+
+    public int getTotalTime() {
+        int timeSum = 0;
+        for (Food food : foods) {
+            timeSum += food.getCookingTime();
+        }
+        return timeSum;
+    }
+
+    public int getFoodCount() {
+        return foods.size();
+    }
+
+    public void addFood(Food food) {
+        foods.add(food);
+    }
+
+    public void clear() {
+        foods.clear();
+    }
+}
