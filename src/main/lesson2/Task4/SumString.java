@@ -1,7 +1,5 @@
 package main.lesson2.Task4;
 
-import first.length;
-
 import java.util.Arrays;
 
 public class SumString {
