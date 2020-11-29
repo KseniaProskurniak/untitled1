@@ -1,8 +1,0 @@
-package main.lesson9.task2;
-
-public class Box implements Movable {
-    @Override
-    public void move() {
-        System.out.println("Предмет " + this.getClass().getSimpleName() + " перемещен.");
-    }
-}

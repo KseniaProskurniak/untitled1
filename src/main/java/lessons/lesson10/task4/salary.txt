@@ -1,0 +1,12 @@
+Зарплатная ведомость
+uuid: 2787ada7-e503-493f-80e7-f43dcc2b1134
+
+Время операции: 26.11.2020 23:14:31.
+
+Список сотрудников:
+rsOBjsrBBeko AWClZxTSvTBe, 5361 380740, 22823,15
+CwOwAgBCkpSg gKXutkdgrUzc, 6748 427050, 48727,98
+aNZWgMYKbKCo bUexoccZkJOi, 7157 387444, 43595,97
+DPUCvDZXRuoH ujFGUbWwdwcQ, 1372 007456, 45577,09
+gjBUMCJQtvOS vvuFrwBbHOQz, 7145 298295, 15644,46
+Общая сумма: 176368,65
