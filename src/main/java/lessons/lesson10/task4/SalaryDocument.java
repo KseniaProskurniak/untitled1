@@ -50,6 +50,22 @@ public class SalaryDocument implements Generatable<SalaryDocument>, Save {
         fileWriter.close();
     }
 
+    public UUID getUuid() {
+        return uuid;
+    }
+
+    public String getOperationDate() {
+        return operationDate;
+    }
+
+    public List<Employee> getEmployees() {
+        return employees;
+    }
+
+    public double getTotalSalary() {
+        return totalSalary;
+    }
+
     @Override
     public String toString() {
         return "Зарплатная ведомость\n" +

@@ -1,12 +1,12 @@
 Зарплатная ведомость
-uuid: 2787ada7-e503-493f-80e7-f43dcc2b1134
+uuid: 9f5f5cab-a598-4414-a7d7-0ffac0b2155a
 
-Время операции: 26.11.2020 23:14:31.
+Время операции: 01.12.2020 23:45:39.
 
 Список сотрудников:
-rsOBjsrBBeko AWClZxTSvTBe, 5361 380740, 22823,15
-CwOwAgBCkpSg gKXutkdgrUzc, 6748 427050, 48727,98
-aNZWgMYKbKCo bUexoccZkJOi, 7157 387444, 43595,97
-DPUCvDZXRuoH ujFGUbWwdwcQ, 1372 007456, 45577,09
-gjBUMCJQtvOS vvuFrwBbHOQz, 7145 298295, 15644,46
-Общая сумма: 176368,65
+NGdjoccPdSmf LlVtqOZtCoEo, 9225 898778, 14316,70
+UsCjwxVogRMm hhLtodRZgRff, 1184 051603, 18390,92
+TGVIfVPlyrlH LcdaKcNNlEdO, 4529 520135, 37171,93
+XSzSFMsfgGSl AeakkhInlmBx, 6215 330225, 29614,69
+vxmDQxBAqVWT JinwxFTTXBFP, 1168 868507, 12126,54
+Общая сумма: 111620,79

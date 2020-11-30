@@ -56,7 +56,7 @@ public class HumanAgeTest {
         }
 
         Assertions.assertEquals(0, human2.getAge());
-    }
 
+    }
 
 }

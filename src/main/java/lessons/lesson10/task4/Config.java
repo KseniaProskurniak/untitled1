@@ -6,7 +6,7 @@ import java.util.Properties;
 
 public class Config {
     private static final Properties PROPERTIES = new Properties();
-    private static final String PROPERTIES_FILE_NAME = "src/main/lesson10/task4/application.properties";
+    private static final String PROPERTIES_FILE_NAME = "src/main/java/lessons/lesson10/task4/application.properties";
 
     static {
         try {

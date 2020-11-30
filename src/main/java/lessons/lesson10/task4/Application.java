@@ -4,14 +4,19 @@ import java.io.IOException;
 
 public class Application {
     public static void main(String[] args) throws IOException {
-        Passport passport = new Passport().generate();
-        System.out.println(passport);
-
-        Employee employee = new Employee().generate();
-        System.out.println(employee);
-
-        SalaryDocument salaryDocument = new SalaryDocument().generate();
-        System.out.println(salaryDocument);
-        salaryDocument.save();
+        for (int i = 0; i < 5; i++) {
+            SalaryDocument salaryDocument = new SalaryDocument().generate();
+            salaryDocument.save();
+            DocumentQueue.FIFO.offer(salaryDocument);
+        }
+        while (true) {
+            CashDocument cashDocument = new CashDocument().generate();
+            if (cashDocument == null) {
+                break;
+            }
+            cashDocument.save();
+            System.out.println(cashDocument);
+            System.out.println();
+        }
     }
 }
