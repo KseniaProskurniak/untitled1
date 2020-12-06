@@ -32,11 +32,11 @@ public class FileHelper {
             return null;
         }
         Sheet sheet = null;
-        try {
-            sheet = workbook.getSheet(sheetName);
-        } catch (Exception ex) {
+        sheet = workbook.getSheet(sheetName);
+        if (sheet == null) {
             return null;
         }
+
         ArrayList<Person> persons = new ArrayList<>();
         for (Row row : sheet) {
             try {
@@ -48,7 +48,7 @@ public class FileHelper {
                 String dateInString = row.getCell(3).getStringCellValue();
                 Date date = formatter.parse(dateInString);
                 person.setBirthDate(date);
-                var passport = new Passport();
+                Passport passport = new Passport();
                 passport.setSeries(row.getCell(4).getStringCellValue());
                 passport.setNumber(row.getCell(5).getStringCellValue());
                 person.setPassport((passport));
@@ -58,12 +58,5 @@ public class FileHelper {
             }
         }
         return persons;
-    }
-
-    public static void main(String[] args) throws IOException {
-        String path = "src/main/java/lessons/lesson11/task4/persons.xlsx";
-        String sheetName = "Persons1";
-        var xx = getPersonsFromExcel(path, sheetName);
-        System.out.println(xx.size());
     }
 }
