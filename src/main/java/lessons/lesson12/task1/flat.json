@@ -1,0 +1,12 @@
+{
+  "rooms": [
+    {
+      "width": 5,
+      "height": 3
+    },
+    {
+      "width": 5,
+      "height": 3
+    }
+  ]
+}
